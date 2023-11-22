@@ -23,19 +23,23 @@ The primary technology employed in this project is the training of an Autoencode
 - Seaborn
 
 ## Execution steps
+Begin by cloning this GitHub repository to your local machine. Use the following command in your terminal or Git bash:
+```bash
+git clone https://github.com/mohan696matlab/TEP_Anomaly_detection_deployment.git
+```
 
 ### Training the autoencoder model using only normal data and saving the model
 
 Refer to the file `Training_AutoEncoder.ipynb`. It is well explained in my youtube channel [https://youtu.be/iCTU-IZ6rPQ?si=s9Y-SmCgq2EVVITW]
 
-### Ceating a FAST-API app for deployment of the mdel in local server
+### Creating a FAST-API app for deployment of the model in local server
 
 Refer to the file `Main.py`
 
 ### Running the Model on Local Server
 To use the trained Autoencoder model, a FastAPI server is implemented. This server exposes an API endpoint for making predictions based on input features.
 
-```
+```bash
 uvicorn Main:app --reload
 ```
 
