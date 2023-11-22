@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 from fastapi import FastAPI, HTTPException, File, UploadFile
 from pydantic import BaseModel
+import uvicorn
 
 # Load the scaler
 loaded_scaler = joblib.load('standard_scaler.pkl')
@@ -58,3 +59,7 @@ def predict(data: InputData):
 
     # Return the results
     return {"reconstruction_loss": reconstruction_loss.tolist(), "feature_wise_recon": feature_wise_recon[0].tolist()}
+
+# Spin up the server!    
+if __name__ == "__main__":
+    uvicorn.run("__main__:app", host="0.0.0.0", port=5000, reload=True)
