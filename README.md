@@ -58,6 +58,12 @@ The contribution of all the variables towards the reconstruction loss is also gi
 ![](Figures/animation.gif)
 
 
+## Tech Stack
+<img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" alt="fastapi" width="80" height="80"/> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="sklearn" width="80" height="80"/> 
+<img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="80" height="80"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="80" height="80"/> 
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="80" height="80"/> 
 
 ## Author
 - Balyogi Mohan Dash (PhD candidate at University of Lille, France)
